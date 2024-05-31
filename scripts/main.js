@@ -13,11 +13,12 @@ function Book(author,title,numberOfPages,readStatus)
     }
 };
 
-const Hobbit = new Book("tom", "bob", "bobagain", "boboncemore");
-
-function addBookToLibrary(Book)
+function addBookToLibrary(author, title, numberOfPages, readStatus)
 {
+        let newBook = new Book(author,title,numberOfPages,readStatus);
+        MyLibrary.push(newBook)
+        console.log(MyLibrary)
 
 }
-
-console.log(Hobbit.info())
+addBookToLibrary("Author Test","Title Test","Pages Test","Status Test");
+addBookToLibrary("Author Test 2","Title Test 2","Pages Test 2","Status Test 2");
