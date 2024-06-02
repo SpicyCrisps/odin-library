@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+#container{
+    background-color: antiquewhite;
+    margin: 128px auto;
+    padding: 16px;
+    height: 1024px;
+    width: 1024px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
+.book
+{
+    background-color: red;
+    margin-top: 0;
+    margin-left: 0;
+    outline: 1px black solid;
+    min-width: 32px;
+    min-height: 64px;
+    max-width: 64px;
+    max-height: 64px;
+    flex: 1;
+
+}
